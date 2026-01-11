@@ -1,0 +1,44 @@
+.image-1{
+    width: 500px;
+    height: 350px;
+    border-radius: 10%;
+    object-fit: auto;
+}
+.container-basliq>h1{
+    color: #EAE0CF;
+    text-align: center;
+    padding-top: 20px;
+}
+.adim{
+    color: #EAE0CF;
+    padding-left: 10px;
+}
+.svga{
+    color: #EAE0CF;
+}
+.container-basliq p{
+    color: #EAE0CF;
+    text-align: center;
+}
+.container-basliq{
+    background-color: #213448;
+}
+.container-header{
+    background-color: #213448;
+}
+.about-me{
+    background-color: #547792;
+}
+.about-me-text p{
+    color: #EAE0CF;
+    text-align: center;
+}
+.contact-me{
+    background-color:#94B4C1 ;
+}
+.t-son{
+    margin-top: auto;     
+    width: auto; 
+    background-color: #EAE0CF;
+     padding: 5px 0;
+}
