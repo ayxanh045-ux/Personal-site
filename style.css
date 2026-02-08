@@ -33,6 +33,13 @@
     color: #EAE0CF;
     text-align: center;
 }
+.about-me-text a{
+    color: #FFD27D;
+    text-decoration: underline;
+}
+.about-me-text a:hover{
+    color: #FFE3A6;
+}
 .contact-me{
     background-color:#94B4C1 ;
 }
