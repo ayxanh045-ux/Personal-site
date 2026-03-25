@@ -16,30 +16,18 @@ body {
     background: #fff;
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 .header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 }
 
 .header h1 {
     font-size: 36px;
     color: #1f2937;
-}
-
-.subtitle {
-    font-size: 16px;
-    color: #555;
-    margin: 8px 0;
-}
-
-.contact span {
-    display: inline-block;
-    margin: 5px 10px;
-    font-size: 14px;
-    color: #444;
+    letter-spacing: 0.04em;
 }
 
 section {
@@ -88,13 +76,15 @@ li {
     gap: 30px;
 }
 
-.skills, .languages {
+.skills,
+.languages {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
 }
 
-.skills li, .languages li {
+.skills li,
+.languages li {
     background: #e5edff;
     color: #1e40af;
     padding: 6px 12px;
@@ -104,23 +94,39 @@ li {
 }
 
 .contact-section {
-    background: #f8fafc;
-    border: 1px solid #e5e7eb;
-    border-radius: 12px;
+    background: linear-gradient(135deg, #f8fafc 0%, #eef4ff 100%);
+    border: 1px solid #dbe3f0;
+    border-radius: 14px;
     padding: 24px;
 }
 
 .contact-intro {
     color: #4b5563;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
+}
+
+.contact-list {
+    display: grid;
+    gap: 12px;
 }
 
 .contact-list p {
-    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    color: #1f2937;
+    line-height: 1.5;
 }
 
-.contact-list strong {
-    color: #1f2937;
+.contact-list span {
+    font-weight: 600;
+    min-width: 88px;
+}
+
+.contact-icon {
+    flex-shrink: 0;
+    color: #2563eb;
 }
 
 .contact-list a {
@@ -133,7 +139,20 @@ li {
 }
 
 @media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 24px;
+    }
+
     .grid {
         grid-template-columns: 1fr;
+    }
+
+    .contact-list p {
+        align-items: flex-start;
+    }
+
+    .contact-list span {
+        min-width: 78px;
     }
 }
