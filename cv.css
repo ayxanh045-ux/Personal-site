@@ -103,6 +103,35 @@ li {
     font-size: 14px;
 }
 
+.contact-section {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.contact-intro {
+    color: #4b5563;
+    margin-bottom: 16px;
+}
+
+.contact-list p {
+    margin-bottom: 12px;
+}
+
+.contact-list strong {
+    color: #1f2937;
+}
+
+.contact-list a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     .grid {
         grid-template-columns: 1fr;
